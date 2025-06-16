@@ -31,7 +31,7 @@ eksctl create iamserviceaccount \
 Add helm repo
 
 ```
-helm repo add eks https://aws.github.io/eks-charts
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 ```
 
 Update the repo
